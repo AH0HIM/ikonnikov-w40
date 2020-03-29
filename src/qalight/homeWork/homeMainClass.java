@@ -44,7 +44,7 @@ public class homeMainClass{
         System.out.println("7. ");
         //System.out.print(Arrays.toString(array));
         //System.out.println(Arrays.toString(arrayMethods.replaceElementsToNumbersZ(array, 4)) + ";");
-        //Assert.assertEquals(2, arrayMethods.replaceElementsToNumbersZ(new int[]{6, 2, 3, 8}, 5));
+        Assert.assertEquals(2, arrayMethods.replaceElementsToNumbersZ(new int[]{6, 2, 3, 8}, 5));
 
         System.out.println("8. ");
         //System.out.print(Arrays.toString(array));
