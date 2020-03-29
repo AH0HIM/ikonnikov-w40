@@ -4,7 +4,6 @@ import org.junit.Assert;
 
 public class homeMainClass{
     public static void main(String[] args){
-        int [] mass = new int[10];
 
         homeArrayMethods arrayMethods = new homeArrayMethods();
         homeMethods methods = new homeMethods();
