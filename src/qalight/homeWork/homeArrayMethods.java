@@ -173,28 +173,6 @@ public class homeArrayMethods {
      * @param array
      * @return
      */
-    /*public boolean findOutSortOfMass(int[] array) {
-        boolean result;
-        try {
-            for (int i = 1; i < array.length; i++) {
-                if (array[i] < array[i - 1]) {
-                    System.out.println("Отсортировано по убыванию;");
-                    result = false;
-                }
-            }
-            System.out.println("Отсортировано по возрастанию;");
-            result = true;
-            log.info("Well done");
-        } catch (Exception ex) {
-            ex.printStackTrace();
-            log.error("Something went wrong");
-            result = false;
-        }
-        return result;
-    }
-
-     */
-
     public boolean findOutSortOfMass(int[] array){
         try {
             int l = array.length;
@@ -216,7 +194,26 @@ public class homeArrayMethods {
             return false;
         }
     }
-
+/*  public boolean findOutSortOfMass(int[] array) {
+        boolean result;
+        try {
+            for (int i = 1; i < array.length; i++) {
+                if (array[i] < array[i - 1]) {
+                    System.out.println("Отсортировано по убыванию;");
+                    result = false;
+                }
+            }
+            System.out.println("Отсортировано по возрастанию;");
+            result = true;
+            log.info("Well done");
+        } catch (Exception ex) {
+            ex.printStackTrace();
+            log.error("Something went wrong");
+            result = false;
+        }
+        return result;
+    }
+*/
 /*
     public boolean findOutSortOfMass(int[] array){
         boolean result = true;
